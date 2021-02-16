@@ -1,0 +1,19 @@
+{
+  "name": "cabin-finland",
+  "version": "1.0.0",
+  "description": "Cabin rental site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattiHel85/cabin-Finland.git"
+  },
+  "author": "Matt Simpson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattiHel85/cabin-Finland/issues"
+  },
+  "homepage": "https://github.com/MattiHel85/cabin-Finland#readme"
+}
