@@ -26,11 +26,12 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
-app.get('/makecabin', async (req, res) => {
-    const cabin = new Cabin({ title: 'Helvetin Silmä', price:'€666'});
-    await cabin.save();
-    res.send(cabin);
+app.get('/cabins', async (req, res) => {
+    const cabins = await Cabin.find({});
+    res.render('cabins/index', { cabins });
 });
+
+
 
 
 app.listen(PORT, () => {
