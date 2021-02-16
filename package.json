@@ -2,7 +2,7 @@
   "name": "cabin-finland",
   "version": "1.0.0",
   "description": "Cabin rental site",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/MattiHel85/cabin-Finland/issues"
   },
-  "homepage": "https://github.com/MattiHel85/cabin-Finland#readme"
+  "homepage": "https://github.com/MattiHel85/cabin-Finland#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.16"
+  }
 }
